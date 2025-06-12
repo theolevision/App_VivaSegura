@@ -18,16 +18,16 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         enableEdgeToEdge()
 
-        setContentView(R.layout.activity_login)
-        val textView = findViewById<TextView>(R.id.seu_textview)
-        val texto = "Não possui conta? Registre-se"
-        val spannable = SpannableString(texto)
-        spannable.setSpan(
-            StyleSpan(Typeface.BOLD),
-            texto.indexOf("Registre-se"),
-            texto.length,
-            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
-        )
-        textView.text = spannable
+        setContentView(R.layout.home)
+//        val textView = findViewById<TextView>(R.id.seu_textview)
+//        val texto = "Não possui conta? Registre-se"
+//        val spannable = SpannableString(texto)
+//        spannable.setSpan(
+//            StyleSpan(Typeface.BOLD),
+//            texto.indexOf("Registre-se"),
+//            texto.length,
+//            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
+//        )
+//        textView.text = spannable
     }
 }
